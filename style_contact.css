@@ -1,0 +1,136 @@
+ 
+.eyemenu
+	{
+	position: absolute;
+	padding-left: 150px;
+	padding-top: 200px;	
+	z-index: 99;
+	}
+.logo
+	{
+	padding-top: 19px;
+	padding-left: 100px;
+	}
+
+@font-face {
+font-family: Planck;
+src: url("mywebsite/css/fonts/Planck-Regular.ttf") format("opentype") 
+}
+
+@font-face {	
+font-family: Concrete;
+src: url("mywebsite/css/fonts/Concrete-Regular.otf") format("opentype")
+} 
+
+#mywork
+{
+white-space: nowrap;
+font-family: Concrete;
+font-size: 14pt;
+font-weight: normal;
+position: relative;
+margin-left: 83px;
+padding-top: 289px;
+}
+
+#myworkpage.html
+a:link {
+text-decoration: none;
+}
+
+ul {
+list-style-type: none;
+}
+
+#mybio
+{
+white-space: nowrap;
+font-family: Concrete;
+font-size: 14pt;
+font-weight: normal;
+position: absolute;
+margin-left: 19px;
+margin-top: 10px;
+z-index: 100;
+}
+
+ul {
+list-style-type: none;
+}
+
+#myvision
+{
+white-space: nowrap;
+font-family: Concrete;
+font-size: 14pt;
+font-weight: normal;
+position: absolute;
+padding-left: 169px;
+padding-top: 10px;
+}
+
+ul {
+list-style-type: none;
+}
+
+#Contact
+{
+font-family: Concrete;
+font-size: 14pt;
+font-weight: normal;
+margin-left: 123px;
+padding-top: 94px;
+position: absolute;
+color: #5d73dc;
+}
+
+ul {
+list-style-type: none;
+}
+
+a, a:visited {
+decoration: none;
+color: inherit;
+text-decoration: none;
+}
+
+a:hover {
+color: #5d73dc;
+}
+
+
+input[type=text], select, textarea {
+  width: 40%; 
+  padding-left: 20px;   
+  margin-top: 20px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  }
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 50px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+input[type=submit]:hover {
+  background-color: #5d73dc;
+}
+
+.container {
+  padding-left: 600px;
+}
+
+#name
+{
+font-family: Concrete;
+font-size: 14pt;
+font-weight: normal;
+position: absolute;
+}

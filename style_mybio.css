@@ -1,0 +1,107 @@
+.bio
+	 {
+	 position: relative;
+	 padding-top: 40px;
+	 padding-right: 37px;
+	 padding-bottom: 95px;
+	 padding-left:26%;
+	 }
+	 
+.eyemenu
+	{
+	position: absolute;
+	padding-left: 150px;
+	padding-top: 200px;	
+	z-index: 99;
+	}
+.logo
+	{
+	padding-top: 19px;
+	padding-left: 100px;
+	}
+
+@font-face {
+font-family: Planck;
+src: url("mywebsite/css/fonts/Planck-Regular.ttf") format("opentype") 
+}
+
+@font-face {	
+font-family: Concrete;
+src: url("mywebsite/css/fonts/Concrete-Regular.otf") format("opentype")
+} 
+
+#mywork
+{
+white-space: nowrap;
+font-family: Concrete;
+font-size: 14pt;
+font-weight: normal;
+position: relative;
+margin-left: 83px;
+padding-top: 289px;
+}
+
+#myworkpage.html
+a:link {
+text-decoration: none;
+}
+
+ul {
+list-style-type: none;
+}
+
+#mybio
+{
+white-space: nowrap;
+font-family: Concrete;
+font-size: 14pt;
+font-weight: normal;
+position: absolute;
+margin-left: 50px;
+margin-top: 26px;
+z-index: 100;
+color: #5d73dc;
+}
+
+ul {
+list-style-type: none;
+}
+
+#myvision
+{
+white-space: nowrap;
+font-family: Concrete;
+font-size: 14pt;
+font-weight: normal;
+position: absolute;
+padding-left: 169px;
+padding-top: 10px;
+}
+
+ul {
+list-style-type: none;
+}
+
+#Contact
+{
+font-family: Concrete;
+font-size: 14pt;
+font-weight: normal;
+padding-left: 83px;
+padding-top: 70px;
+position: absolute;
+}
+
+ul {
+list-style-type: none;
+}
+
+a, a:visited {
+decoration: none;
+color: inherit;
+text-decoration: none;
+}
+
+a:hover {
+color: #5d73dc;
+}
